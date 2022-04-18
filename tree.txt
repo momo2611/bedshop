@@ -1,0 +1,37 @@
+Folder PATH listing for volume Windows 10
+Volume serial number is F251-2AE3
+C:.
+|   add_to_cart.php
+|   admin_header.php
+|   admin_orders.php
+|   admin_page.php
+|   admin_products.php
+|   blog.php
+|   cart.php
+|   checkout.php
+|   config.php
+|   contact.php
+|   detail.php
+|   home.php
+|   login.php
+|   logout.php
+|   product-cat.php
+|   product.php
+|   register.php
++---assets
+|   +---img      
+|   \---svgs
+|       +---brands 
+|       \---solid        
++---components
+|       about.php
+|       footer.php
+|       navbar.php
+|       slider.php   
++---css
+|       admin_style.css
+|       base.css
+|       style.css
+\---js
+        admin_script.js
+        index.js
