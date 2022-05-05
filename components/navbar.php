@@ -1,4 +1,5 @@
 <?php
+$user_id = $_SESSION['user_id'];
 if (isset($message)) {
   foreach ($message as $message) {
     echo '
@@ -34,7 +35,15 @@ if (isset($message)) {
       <div class="menu-right">
         <ul class="menu-icon">
           <li>
-            <a href="cart.php"><img src="./assets/svgs/solid/cart-plus.svg" alt="" /></a>
+            <a href="cart.php">
+              <img src="./assets/svgs/solid/cart-plus.svg" alt="" />
+              <span>
+                (<?php 
+                  $count_product = mysqli_query($conn, "SELECT * FROM `cart` WHERE user_id = '$user_id'") or die('query failed');
+                  $count = mysqli_num_rows($count_product);
+                  echo $count;  ?>)
+              </span>
+            </a>
           </li>
           <li class="menu-icon-user">
             <a><img src="./assets/svgs/solid/user-circle.svg" alt="" /></a>
