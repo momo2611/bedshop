@@ -49,10 +49,10 @@
           <div class="grid__column-2-4 list-col">
             <h3 class="footer-title title-contact">Contact Us</h3>
               <ul class="footer-contact-info">
-                <li class="footer-item">Name:  Hoang Phi Long</li>
-                <li class="footer-item">Email: <a class="mail-to" href="mailto:sv.19103100129@uneti.edu.vn">sv.19103100129@uneti.edu.vn</a></li>
-                <li class="footer-item">Class: <a>DHTI 13A3 HN</a></li>
-                <li class="footer-item">Code: <a>19103100129</a></li>
+                <li class="footer-item">Name:  MoMo Mochi</li>
+                <li class="footer-item">Email: <a class="mail-to" href="mailto:momosumochi@gmail.com">momosumochi@gmail.com</a></li>
+                <li class="footer-item">Class: <a>DH 13 A3</a></li>
+                <li class="footer-item">Code: <a>191xxxx29</a></li>
               </ul>
           </div>
         </div>
@@ -63,7 +63,7 @@
             <p>Copyright © 2022 Bedtime Furniture Industries. All Rights Reserved.</p>
           </div>
           <div class="grid__column-2-2">
-            <p>Website Development by Hoang Phi Long</p>
+            <p>Website Development by Mo Mo</p>
           </div>
         </div>
         <!-- end copyright container -->
